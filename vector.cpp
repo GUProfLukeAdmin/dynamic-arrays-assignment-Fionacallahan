@@ -40,7 +40,8 @@ void part2(){
             myVecBools[i] = false;
         }
     }
-    int boolMemoryUsage = (myVecBools.size()/8);
+    cout << myVecBools.capacity() << endl;
+    int boolMemoryUsage = (myVecBools.capacity()/8);
     //each bool: one bit //the dividing by 8 makes it so that it is BYTEs not bits 
     std::vector <char> myVecChars;
     for (int i = 0; i < 10000; i ++){
