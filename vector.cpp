@@ -2,7 +2,7 @@
 
 
 void part1() {
-    //TODO: Implement part 1
+    // Can we see this? 
 }
 
 void part2() {
